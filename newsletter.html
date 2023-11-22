@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Love Running club for runners in Dublin, Ireland. Urban running, trail running, Dublin docklands and phoenix park." />
+    <meta name="keywords" content="love running, run, running club, runners, ireland, dublin, sport, exercise" />
+    <title>Love Yoga</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Love Yoga</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="newsletter.html">Newsletter</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Sign up for the newsletter! <i class="fa-solid fa-circle-info"></i></h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required />
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required />
+
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required />
+
+            <label for="road">New to Yoga</label>
+            <input type="radio" id="road" name="running_preference" value="road" required />
+            <label for="trail">Experienced</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required />
+            <label for="both">Just for fun</label>
+            <input type="radio" id="both" name="running_preference" value="both" required />
+
+            <input class="join-button" type="submit" value="Yoga Time!" />
+        </form>
+    </section>
+
+    <script src="https://kit.fontawesome.com/93183407c8.js" crossorigin="anonymous"></script>
